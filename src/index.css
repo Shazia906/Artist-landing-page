@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* #475569 */
+
+body{
+    padding: 0 5px;
+}
+.padding{
+   padding:60px 25px;
+   max-width:1180px;
+   margin: 0 auto;
+}
+.pading{
+   padding: 0 10px;
+   max-width:1180px;
+   margin: 0 auto;
+}
+
+@media (max-width: 650px) and (min-width:400px) {
+   .face{
+      width: 1000px;
+   }
+}
