@@ -8,9 +8,9 @@ import image from "../assets/images/image.png";
 
 const SolutionsSection = () => {
   return (
-  <div className='bg-gray-700 min-h-screen lg:pb-0 pb-20'>
-      <div className='grid gap-10 grid-cols-1 lg:grid-cols-2'>
-        <div className='padding flex flex-col gap-5'>
+  <div className='bg-gray-700  lg:pb-0 pb-20'>
+      <div className='grid gap-10 grid-cols-1 lg:grid-cols-2 '>
+        <div className='padding flex flex-col gap-5 max-sm:order-2'>
             <h1 className='lg:text-5xl md:text-4xl text-2xl text-white font-bold'>Best Solutions for Your <br /> demanding collection</h1>
             <p className='text-gray-300'>Odio vulputate cras vel lacinia turpis voluput adipising .Solutions at <br /> velt , blantdit tempus nunc in.</p>
             <p className='flex gap-2 items-center text-gray-300'>
@@ -26,7 +26,7 @@ const SolutionsSection = () => {
                 Interduum voluput turpis malessuade ac turpis.
             </p>
             
-            <button className='px-5 py-3 border-2 text-white font-semibold lg:text-2xl text-[20px] rounded-[10px]  border-white max-w-[300px]'>Explore Xinder</button>
+            <button className='px-5 py-3 border-2 text-white font-semibold lg:text-2xl text-[20px] rounded-[10px]  border-white max-sm:w-1/2 max-w-[300px] max-sm:py-1'>Explore Xinder</button>
         </div>
       
         {/* <div className='relative w-full  flex justify-center items-center'>
@@ -36,8 +36,8 @@ const SolutionsSection = () => {
         <img className='max-sm:w-[20%] w-[20%] lg:bottom-30 lg:h-[15%] left-[20%] bottom-[-10%]  h-[20%] rounded-[8px] absolute  z-20 bg-center object-cover xl:bottom-14' src={image2} alt="" />
 
         </div> */}
-        <div className='p-4  flex items-center justify-center max-w-3/4'>
-            <img className='w-full' src={image} alt="" />
+        <div className='p-4 flex items-center justify-center w-full max-sm:order-1'>
+            <img className='w-3/4 max-sm:w-full' src={image} alt="" />
         </div> 
      {/* <div className='relative w-full  flex justify-center items-center'>
         <div className='relative w-80%'>

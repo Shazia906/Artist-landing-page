@@ -81,7 +81,7 @@
    return (
       <footer className='padding text-black'>
               <div className='flex flex-col items-start border-b py-10 border-gray-500'>
-          <div className='flex  justify-between lg:gap-15 gap-20 flex-wrap mt-10 items-center max-sm:px-18'>
+          <div className='flex  justify-between lg:gap-15 gap-20 flex-wrap mt-10 items-center'>
             {footerLinks.map((section)=>(
               <div
               key={section}>
@@ -100,12 +100,12 @@
             ))}
           </div>
               </div>
-              <div className='flex justify-between  mt-24 max-sm:flex-col max-sm:items-center '>
+              <div className='flex justify-between  mt-24 max-sm:flex-col  '>
                 <div className='flex flex-1 justify-start items-center gap-5 cursor-pointer'>
                      <p>Copyright . All rights reserverd</p>
                 </div>
                <div>
-               <p className='cursor-pointer flex gap-2 max-sm:mt-14'>
+               <p className='cursor-pointer flex max-sm:justify-items-start gap-3 text-2xl  items-center max-sm:mt-4'>
                  <FaYoutube/>
                 <FaFacebook/>
                 <FaTwitter/>
