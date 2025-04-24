@@ -7,7 +7,7 @@ import zoomer from "../assets/images/zoomer.png";
 import shells from "../assets/images/shells.png";
 import waves from "../assets/images/waves.png";
 import Art from "../assets/images/artvenue.png";
-const Hero = () => {
+const HeroSection = () => {
   return (
     <>
     <div className='w-full   bg-red-800 text-white relative'>
@@ -33,13 +33,21 @@ const Hero = () => {
               </div>
 
             </div>
-            <div className="flex-1 flex relative w-full h-[600px]  justify-end overflow-hidden">
+            <div className="lg:flex hidden flex-1  relative w-full h-[600px]  justify-end overflow-hidden">
             <img
               src={image}
               alt=""
               className="w-[100%]  rounded-lg absolute -top-44 left-0 "
             />
           </div>
+          <div className=" lg:hidden flex-1 flex justify-end">
+            <img
+              src={image}
+              alt=""
+              className="w-full sm:max-w-sm rounded-lg "
+            />
+          </div>
+
      </div>
      </div>
    <div className='flex justify-center items-center lg:gap-20 gap-10 flex-wrap bg-gray-300 px-3 py-6 text-gray-400 font-bold'>
@@ -68,4 +76,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default HeroSection

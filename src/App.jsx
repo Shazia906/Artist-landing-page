@@ -1,6 +1,5 @@
 
 import './index.css'
-import Hero from './Components/Hero'
 import FeaturedSection from './components/Featured'
 import ArtGallery from './components/MasterPicesSection'
 import Expending from './components/Expending'
@@ -10,13 +9,14 @@ import BeIncredible from './components/BeincredibleSection'
 import Events from './components/EvantsSection'
 import GrowingSection from './components/GrowingSection'
 import Footer from './components/Footer'
+import HeroSection from './components/Hero';
 
 function App() {
  
 
   return (
     <>
-   <Hero/>
+   <HeroSection/>
    <FeaturedSection/>
    <ArtGallery/>
    <Expending/>
