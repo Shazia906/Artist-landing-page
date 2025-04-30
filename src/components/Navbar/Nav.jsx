@@ -1,7 +1,7 @@
 import React from 'react';
-
 import {X , Menu} from "lucide-react";
 import { useState } from 'react';
+
  const navItems = [
     { label: "Explore", href: "#" },
     { label: "Solutions", href: "#" },
@@ -9,7 +9,7 @@ import { useState } from 'react';
     { label: "Sign In", href: "#" },
   ];
 
-const Navbar = () => {
+const NavBar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
 
   const toggleNavbar = () => {
@@ -60,4 +60,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;

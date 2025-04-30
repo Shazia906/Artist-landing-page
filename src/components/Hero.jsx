@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../Navbar/Nav'
 import {Search} from "lucide-react";
 import image from "../assets/images/hero.png";
 import vector from "../assets/images/smart.svg";
@@ -7,11 +6,13 @@ import zoomer from "../assets/images/zoomer.png";
 import shells from "../assets/images/shells.png";
 import waves from "../assets/images/waves.png";
 import Art from "../assets/images/artvenue.png";
+import NavBar from './Navbar/Nav';
+
 const HeroSection = () => {
   return (
     <>
     <div className='w-full   bg-red-800 text-white relative'>
-         <Navbar/>
+       <NavBar/>
      <div className='relative pading grid lg:grid-cols-2 grid-cols-1 place-content-between place-items-center'>
      <div className='flex flex-col flex-1 gap-4 w-full max-sm:mt-[30px]'>
                 <h1 className="lg:text-6xl font-bold text-3xl">Search the work of <br /> the best artists</h1>
