@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../navbar/Nav'
+import Navbar from '../Navbar/Nav'
 import {Search} from "lucide-react";
 import image from "../assets/images/hero.png";
 import vector from "../assets/images/smart.svg";
